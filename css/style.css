@@ -42,11 +42,15 @@ body::before {
     color: #fff;
     position: relative;
 
+    display: flex;
+    align-items: center;
+    
+    margin: 0 auto 50px;
+
     max-width: 450px;
+    height: 100vh;
 
     box-sizing: border-box;
-
-    margin: 0 auto 90px;
 }
 
 .containerPrincipal-login {
